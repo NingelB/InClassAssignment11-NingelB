@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.cmltdstudent.inclassassignment11_ningelb.NewMonument"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monument Name" />
+
+    <EditText
+        android:id="@+id/enter_year_built"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year Built" />
+
+    <CheckBox
+        android:id="@+id/check_if_visited"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have you visited this monument?" />
+
+</LinearLayout>
